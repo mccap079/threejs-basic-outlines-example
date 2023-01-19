@@ -1,0 +1,23 @@
+{
+  "name": "edge-detection-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack serve --no-client-overlay --live-reload",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL",
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "three": "^0.135.0"
+  },
+  "description": ""
+}
