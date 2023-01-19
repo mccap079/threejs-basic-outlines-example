@@ -1,4 +1,4 @@
-Outline complex shapes example for threejs
+Threejs example: outline complex shapes
 ====
 
 ![info diagram](https://github.com/mccap079/threejs-basic-outlines-example/blob/master/info.png?raw=true)
@@ -6,7 +6,7 @@ Outline complex shapes example for threejs
 Description
 ----
 
-A super-simple example demonstrating how to generate an outline of complex shapes using an edge detection shader in a moduled threejs environment
+A super-simple, commented, noob-ish friendly example demonstrating how to generate an outline of complex shapes using an edge detection shader in a moduled threejs environment
 
 Silhouette outline only-- no inside lines
 
