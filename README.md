@@ -16,6 +16,22 @@ Click + drag scene to control camera position
 
 Control outline thickness using the `LINE_WEIGHT` var in the frag shaders
 
+
+```mermaid
+---
+title: basic pipeline from original object to final scene output
+---
+flowchart LR
+    A[Original mesh `c`] --> B
+    B[`maskScene`] --> C
+    C[render texture `maskRt`] --> D
+    D[`matAlbedoOutline` material] --> E
+    E[`finalVizQuad` mesh] --> F[`scene`]
+    A --> G[`albedoScene`]
+    G --> H[render texture `albedoRt`]
+    H --> D
+```
+
 Setup
 ----
 1. Clone repo
